@@ -33,7 +33,7 @@ class underscore(package):
 
 class jquery_facebook(jquery, package):
 	url = 'https://raw.github.com/vamf12/jquery.facebook/master' + \
-		'/jquery.facebook.coffee'
+		'/jquery.facebook.js'
 
 if len(sys.argv) < 2:
 	for name, pack in packages.iteritems():

@@ -35,6 +35,9 @@ class jquery_facebook(jquery, package):
 	url = 'https://raw.github.com/vamf12/jquery.facebook/master' + \
 		'/jquery.facebook.js'
 
+class jquery_ex(jquery, package):
+	url = 'https://raw.github.com/vamf12/jQueryEx/master/jquery.ex.js'
+
 class knockout(jquery, package):
 	url = 'http://knockoutjs.com/downloads/knockout-2.2.1.js'
 
